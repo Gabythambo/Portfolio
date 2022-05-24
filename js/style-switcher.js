@@ -29,8 +29,8 @@ function setActiveStyle(color)
 //theme light and dark
 const dayNigth = document.querySelector(".day-nigth");
 dayNigth.addEventListener("click", ()=> {
-    dayNigth.querySelector("i").classList.toggle("fa-sun");
     dayNigth.querySelector("i").classList.toggle("fa-moon");
+    dayNigth.querySelector("i").classList.toggle("fa-sun");
     document.body.classList.toggle("dark")
 } )
 window.addEventListener("load",()=>{
