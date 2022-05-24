@@ -36,10 +36,10 @@ dayNigth.addEventListener("click", ()=> {
 window.addEventListener("load",()=>{
     if(document.body.classList.contains("dark"))
     {
-        dayNigth.querySelector("i").classList.add("fa-sun")
+        dayNigth.querySelector("i").classList.add("fa-moon")
     }
     else
     {
-        dayNigth.querySelector("i").classList.add("fa-moon")
+        dayNigth.querySelector("i").classList.add("fa-sun")
     }
 })
