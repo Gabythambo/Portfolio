@@ -643,6 +643,10 @@ color: var(--text-black-700);
     overflow: hidden;
     cursor: pointer;
 }
+.portfolio-item span{
+color:var(--skin-color);
+}
+
 .portfolio .portfolio-item-inner .portfolio-img img{
     width: 100%;
     display: block;
